@@ -1,0 +1,69 @@
+body{
+    margin-top: 100px;
+}
+.navbar-default .navbar-nav > li > a{
+    padding: 15px 15px;
+    margin: 5px 0;
+}
+
+.navbar-default{
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: transparent;
+}
+.btn-info,
+.btn-info:hover,
+.btn-info:focus{
+    color: #FFF !important;
+    background-color: #00bbff !important;
+    border-color: #00bbff !important;
+}
+
+.btn-info{
+    opacity: .9;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+.btn-info:hover,
+.btn-info:focus{
+    opacity: 1;
+}
+
+.button-style{
+width: 50px;
+height: 50px;
+font-size: 35px;
+    }
+    .button-style:hover{
+
+
+    }
+
+    .input-icono {
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position: 4px center;
+        background-size: 20px;
+        display: flex;
+        align-items: center;
+        width: 300px;
+        padding-left: 28px;
+        height: 30px;
+        border: 1px solid rgba(9, 113, 163, 1);
+        border-radius: 3px;
+      }
+      .input-icono input {
+        width: 100%;
+        font-size: 0.9em;
+        border: none;
+      }
+      .input-icono input:focus {
+        outline: none;
+      }
+.buttonsCV{
+    margin: 30px auto;
+}
+.centerCV{
+    display: flex;
+    justify-content: center;
+}
